@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Gemdrfly Projects - Explore our innovative AI and technology projects">
+    <meta name="keywords" content="Gemdrfly, Projects, AI, Machine Learning, Technology">
+    <meta name="author" content="Gemdrfly">
+
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Gemdrfly Projects">
+    <meta property="og:description" content="Explore our innovative AI and technology projects">
+
+    <title>Projects - Gemdrfly</title>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .project-card {
+            background: rgba(30, 41, 59, 0.8);
+            border: 1px solid rgba(148, 163, 184, 0.2);
+            border-radius: 12px;
+            padding: 30px;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(10px);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+            border-color: rgba(148, 163, 184, 0.4);
+        }
+
+        .project-card h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+            font-size: 24px;
+        }
+
+        .project-card p {
+            color: #94a3b8;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .project-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .tag {
+            background: rgba(102, 126, 234, 0.2);
+            color: #667eea;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 500;
+        }
+
+        .project-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 20px;
+        }
+
+        .project-links a {
+            padding: 8px 16px;
+            font-size: 14px;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #94a3b8;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .back-link:hover {
+            color: #667eea;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <a href="index.html" class="back-link">← Back to Home</a>
+
+        <h1>Projects</h1>
+        <p class="subtitle">Innovative AI & Technology Projects</p>
+
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Gemdrfly OS</h3>
+                <p>A next-generation operating system designed for AI workloads and modern computing needs.</p>
+                <div class="project-tags">
+                    <span class="tag">Operating System</span>
+                    <span class="tag">AI</span>
+                    <span class="tag">Rust</span>
+                </div>
+                <div class="project-links">
+                    <a href="gemdrfly-os.html">Learn More</a>
+                    <a href="https://github.com/woaiai12" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>AI Lab</h3>
+                <p>Cutting-edge research and experiments in machine learning, deep learning, and neural networks.</p>
+                <div class="project-tags">
+                    <span class="tag">Machine Learning</span>
+                    <span class="tag">Research</span>
+                    <span class="tag">Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="ai-lab.html">Explore</a>
+                    <a href="https://github.com/woaiai12" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Neural Network Visualizer</h3>
+                <p>Interactive tool for visualizing and understanding neural network architectures in real-time.</p>
+                <div class="project-tags">
+                    <span class="tag">Visualization</span>
+                    <span class="tag">WebGL</span>
+                    <span class="tag">JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">Demo</a>
+                    <a href="https://github.com/woaiai12" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Smart Assistant Framework</h3>
+                <p>Modular framework for building intelligent AI assistants with natural language understanding.</p>
+                <div class="project-tags">
+                    <span class="tag">NLP</span>
+                    <span class="tag">Framework</span>
+                    <span class="tag">Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">Documentation</a>
+                    <a href="https://github.com/woaiai12" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Automated Trading System</h3>
+                <p>AI-powered trading system with advanced pattern recognition and risk management.</p>
+                <div class="project-tags">
+                    <span class="tag">FinTech</span>
+                    <span class="tag">AI</span>
+                    <span class="tag">Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">Case Study</a>
+                    <a href="https://github.com/woaiai12" target="_blank">GitHub</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Computer Vision Toolkit</h3>
+                <p>Comprehensive toolkit for image processing, object detection, and video analysis.</p>
+                <div class="project-tags">
+                    <span class="tag">Computer Vision</span>
+                    <span class="tag">OpenCV</span>
+                    <span class="tag">Python</span>
+                </div>
+                <div class="project-links">
+                    <a href="#">Documentation</a>
+                    <a href="https://github.com/woaiai12" target="_blank">GitHub</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2026 Gemdrfly. All rights reserved.</p>
+            <p>Built with ❤️ for the AI community</p>
+        </div>
+    </div>
+</body>
+</html>
